@@ -17,11 +17,11 @@ TOKEN = open('token.txt').read()
 TRACK = range(1)
 
 # interval to check for change
-# CHECK_INTERVAL = 60 * 60 * 12 # in seconds
-CHECK_INTERVAL = 10
+CHECK_INTERVAL = 60 * 60 * 12 # in seconds
+# CHECK_INTERVAL = 10
 
 # simulate check for changes
-SIMULATION = True
+SIMULATION = False
 
 entries = Entries()
 
